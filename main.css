@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+:first-child {
+    margin-top: 0;
+}
+
+header {
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+header h1 {
+    margin: 0;
+    line-height: 1em;
+    float: left;
+    padding: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    line-height: 2em;
+    padding: 20px 10px;
+}
+
+#wrapper {
+    overflow: hidden;
+    padding: 30px;
+}
+
+h2 span {
+    float: right;
+}
+
+h2 a {
+    font-size: 0.7em;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #ffe7ca
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+}
+
+td a {
+    text-decoration: underline;
+}
+
+thead td:hover {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background-color: #ffe7ca
+}
+
+/* columns with a shorter known width */
+thead td.id,
+thead td.gender,
+thead td.header-edit,
+thead td.header-delete {
+    width: 50px;
+}
+
+.delete-row {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+}
