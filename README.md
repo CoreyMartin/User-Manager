@@ -15,3 +15,7 @@ If you'd like to run the unit tests just run `npm test`.
 # API endpoints
 
 All the test data is imported as JSON files inside the app but it could be easily configured to use an endpoint insead. In this case some likely endpoints would be "/api/users" and "/api/groups" which would return JSON for the app.
+
+# Live version
+
+Check out the live version at https://coreymartin.github.io/User-Manager/
