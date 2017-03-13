@@ -11,3 +11,7 @@ For development first clone the directory locally and run `npm install`.
 If you'd like to use the development bundle just edit the script in index.html to use 'http://localhost:8080/dev.js' instead of 'dist/prod.js' and start the webpack-dev-server by running `npm run dev`
 
 If you'd like to run the unit tests just run `npm test`.
+
+# API endpoints
+
+All the test data is imported as JSON files inside the app but it could be easily configured to use an endpoint insead. In this case some likely endpoints would be "/api/users" and "/api/groups" which would return JSON for the app.
